@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+}
+
+section.title {
+    background-image: url("images/constellations.jpg");
+    background-size: cover;
+    height: 50%;
+    background-repeat: no-repeat;
+}
