@@ -1,16 +1,126 @@
+/* ///////
+Global Styles
+//////// */
+
 body {
     margin: 0;
     padding: 0;
+    height: 800px;
+    width: 850px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: 6f6f6f;
 }
 
-.main-container {
-    height: 100%;
-    width: 100%;
+/* ////////
+Typography
+///////// */
+
+* {
+    font-size: 12px
 }
 
-section.title {
+h2 {
+    text-align: left;
+    font-size: 16px;
+    color: black;
+}
+
+/* ////////
+Layout
+///////// */
+
+header {
     background-image: url("images/constellations.jpg");
     background-size: cover;
-    height: 50%;
+    height: 58%;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}   
+
+article.info-container {
+    height: 42%;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #e6e6e6;
+    margin: 26px 0px 0px;
+}
+
+article.info-container > * {
+    padding: 10px;
+}
+
+.top {
+    margin: 10px 0px 0px !important;
+}
+
+.social-media {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    margin: 8px 0px;
+    letter-spacing: .5px;
+}
+
+.office-info {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+}
+
+.address > p { 
+    margin: 6px 0px;
+} 
+
+.contact-us {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+}
+
+form {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#name, #message {
+    margin: 4px 0px;
+    border: 1px white solid;
+}
+
+input#name {
+    height: 10%;
+}
+
+textarea {
+    height: 30%
+}
+
+#button {
+    width: 30%;
+    height: 12%;
+    border: 1px #4c4c4c;
+    background-color: #4c4c4c;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 16px;
 }
