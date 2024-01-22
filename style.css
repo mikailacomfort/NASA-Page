@@ -30,7 +30,7 @@ Layout
 ///////// */
 
 header {
-    background-image: url("images/constellations.jpg");
+    background-image: url("./constellations.jpg");
     background-size: cover;
     height: 58%;
     background-repeat: no-repeat;
